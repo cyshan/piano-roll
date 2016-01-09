@@ -1,0 +1,18 @@
+Welcome to Piano Roll!
+
+This program is a tool for creating and editing MIDI files. MIDI files are digital music files that contain note information instead of audio data. 
+A piano roll is an easy environment to visualize and change MIDI files. The vertical position of a note reflects its pitch. Notes towards the top of the screen have higher pitch than notes close to the
+bottom. Time is displayed on the horizontal axis. To enter notes, click the piano roll interface. The notes will snap to the grid. Note entry mode can be switched between duplet and triplet mode but 
+clicking the respective buttons. To scroll the notes up and down (to access higher and lower notes), use the mousewheel to scroll. To change the part of the piano roll to view, use the slider bar at the
+top of the screen. Notes can be changed by clicking and dragging the notes around. They can be deleted by right clicking on them. Note length can be changed by clicking the right end of the note, 
+right of the vertical bar, and dragging. 
+
+The piano roll data can be played as piano music by pressing the play button. Unfortunately, the program will not respond to user input while the piano roll is playing.
+
+Tempo data can be created and changed by going into tempo mode (clicking the tempo button). Clicking the grid in tempo mode will create tempo events that tell the piano roll the tempo at a certain 
+time. This tempo data can be exported and imported with the MIDI file.
+
+Notes stored in the piano roll can be exported by clicking the export button. They will be exported as a MIDI file. MIDI files can also be imported into the piano roll interface. MIDI files that the 
+piano roll program creates can always be exported, while only certain format 0 and format 1 MIDI files can be imported (the MIDI file specs and not exhaustively supported).
+
+To close this help screen, click anywhere on the screen.
